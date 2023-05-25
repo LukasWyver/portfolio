@@ -1,7 +1,13 @@
+import { Hero } from '@/components/Hero'
+import { Header } from '../components/Header'
+
 export default function Home() {
   return (
-    <section className="min-h-screen bg-zinc-900 text-zinc-50">
-      <h1 className="">Hello World</h1>
+    <section className="flex h-full w-full flex-col bg-zinc-900 text-zinc-50">
+      <Header />
+      <main className="flex flex-col gap-32">
+        <Hero />
+      </main>
     </section>
   )
 }
