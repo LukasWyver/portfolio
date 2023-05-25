@@ -1,5 +1,6 @@
 import { Hero } from '@/components/Hero'
 import { Header } from '../components/Header'
+import { Experience } from '@/components/Experience'
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
       <main className="flex flex-col gap-32">
         <Hero />
       </main>
+
+      <Experience />
     </section>
   )
 }

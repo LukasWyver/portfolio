@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         // sans: 'var(--font-roboto)',
         sans: 'var(--font-montserrat)',
+        code: 'var(--font-jetBrainsMono)',
       },
 
       colors: {
