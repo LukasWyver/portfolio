@@ -37,7 +37,9 @@ export function CardProj({
       >
         <div className="">
           <h5 className="mb-6 text-4xl font-bold text-orange-500">{title}</h5>
-          <h6 className="mb-4 text-3xl font-light text-zinc-100">{subtitle}</h6>
+          <h6 className="mb-4 text-3xl font-light text-zinc-500 dark:text-zinc-100">
+            {subtitle}
+          </h6>
           <p className="mb-4 text-base font-light text-zinc-400">
             {description}
           </p>
@@ -46,7 +48,7 @@ export function CardProj({
           href={link}
           target="_blank"
           rel="noreferrer"
-          className="flex items-center gap-2 text-3xl font-light text-zinc-100 group-hover:text-orange-500"
+          className="flex items-center gap-2 text-3xl font-light text-zinc-500 group-hover:text-orange-500 dark:text-zinc-100"
         >
           <span>Ver mais</span>
           <ChevronRightSquare

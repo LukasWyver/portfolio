@@ -12,7 +12,7 @@ export function CardExp({
   isCurrent = false,
 }: CardExpProps) {
   return (
-    <div className="relative mx-auto flex h-[320px] flex-1 flex-col justify-center rounded bg-gradient-to-bl from-zinc-800 to-zinc-900 px-4 ">
+    <div className="relative mx-auto flex h-[320px] flex-1 flex-col justify-center rounded bg-gradient-to-bl from-white to-zinc-50 px-4 drop-shadow-xl dark:from-zinc-800 dark:to-zinc-900 ">
       <h6 className="mb-6 text-3xl font-bold text-orange-500">{year}</h6>
 
       {isCurrent && (
@@ -20,7 +20,7 @@ export function CardExp({
           Atual
         </div>
       )}
-      <strong className="mb-4 text-2xl font-light text-zinc-100">
+      <strong className="mb-4 text-2xl font-light text-zinc-500 dark:text-zinc-100">
         {occupation}
       </strong>
       <p className="text-base font-light text-zinc-400">{description}</p>

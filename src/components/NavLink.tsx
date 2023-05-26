@@ -13,10 +13,12 @@ export default function NavLink({ path, title }: NavLinkProps) {
   return (
     <li
       className={`${
-        isActive ? 'text-orange-500' : 'text-zinc-400'
+        isActive ? 'text-orange-500' : 'text-zinc-500 dark:text-zinc-400'
       } uppercase transition-colors ${
-        isActive ? 'hover:text-orange-400' : 'hover:text-zinc-300'
-      }`}
+        isActive
+          ? 'hover:text-orange-600 dark:hover:text-orange-400'
+          : 'hover:text-zinc-600 dark:hover:text-zinc-300'
+      } font-semibold`}
     >
       <Link href={path}>{title}</Link>
     </li>
