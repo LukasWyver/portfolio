@@ -12,7 +12,7 @@ export function CardExp({
   isCurrent = false,
 }: CardExpProps) {
   return (
-    <div className="to-gray--900 relative flex h-full max-h-[320px] min-w-[304px] flex-1 flex-col justify-center rounded bg-gradient-to-bl from-gray-800 px-4">
+    <div className="relative mx-auto flex h-[320px] flex-1 flex-col justify-center rounded bg-gradient-to-bl from-zinc-800 to-zinc-900 px-4 ">
       <h6 className="mb-6 text-3xl font-bold text-orange-500">{year}</h6>
 
       {isCurrent && (

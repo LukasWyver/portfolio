@@ -3,7 +3,7 @@ import meImg from '../assets/me.png'
 
 export function Hero() {
   return (
-    <section className="mx-auto mt-20 flex max-w-5xl flex-col-reverse items-center justify-center gap-8 lg:flex-row">
+    <section className="mx-auto mt-20 flex max-w-5xl flex-col-reverse items-center justify-center gap-8 px-4 lg:flex-row">
       <div className="flex-1">
         <Image src={meImg} alt="" width={641} height={601} className="" />
       </div>
@@ -17,7 +17,7 @@ export function Hero() {
           </h2>
         </div>
 
-        <div className="to-gray--900 max-w-sm rounded bg-gradient-to-bl from-gray-800 p-8 font-code">
+        <div className=" max-w-sm rounded bg-gradient-to-bl from-gray-800 p-8 font-code">
           <p className="text-zinc-500">{`// Minha apresentação`}</p>
           <p className="mt-2 text-yellow-500">
             <span className="pr-2 text-pink-400">const</span>
