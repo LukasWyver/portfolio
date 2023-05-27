@@ -3,8 +3,10 @@ import { CardExp } from './CardExp'
 export function Experience() {
   return (
     <section className="mx-auto my-32 w-full max-w-[1360px] border-b border-zinc-200 px-4 pb-28 dark:border-zinc-800">
-      <h2 className="text-7xl font-bold text-orange-500">#10 Anos</h2>
-      <h4 className="mt-2 text-5xl font-light text-zinc-500 dark:text-orange-50">
+      <h2 className="text-5xl font-bold text-orange-500 sm:text-6xl md:text-7xl">
+        #10 Anos
+      </h2>
+      <h4 className="mt-2 text-3xl font-light text-zinc-500 dark:text-orange-50 sm:text-4xl md:text-5xl">
         de Carreira
       </h4>
 

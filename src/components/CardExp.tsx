@@ -23,7 +23,9 @@ export function CardExp({
       <strong className="mb-4 text-2xl font-light text-zinc-500 dark:text-zinc-100">
         {occupation}
       </strong>
-      <p className="text-base font-light text-zinc-400">{description}</p>
+      <p className="text-base font-light text-zinc-500 dark:text-zinc-400">
+        {description}
+      </p>
     </div>
   )
 }

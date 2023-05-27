@@ -1,11 +1,12 @@
+import Head from 'next/head'
+
 import { Hero } from '@/components/Hero'
 import { Header } from '../components/Header'
 import { Experience } from '@/components/Experience'
-import { CardProj } from '@/components/CardProj'
 
-import Link from 'next/link'
-import Head from 'next/head'
 import { Skills } from '@/components/Skills'
+import { ContainerProj } from '@/components/ContainerProj'
+import { Contact } from '@/components/Contact'
 
 export default function Home() {
   return (
@@ -21,58 +22,9 @@ export default function Home() {
         </main>
 
         <Experience />
-
-        {/* Projetos */}
-        <section className="mx-auto w-full max-w-[1360px] px-4 pb-28">
-          <h2 className="text-7xl font-bold text-orange-500">
-            #Últimos Projetos
-          </h2>
-          <h4 className="mb-20 mt-2 text-5xl font-light text-zinc-500 dark:text-orange-50">
-            desenvolvidos
-          </h4>
-
-          <div className="mb-14 space-y-20">
-            <CardProj
-              title="# Projeto 01"
-              subtitle="Website"
-              description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            nesciunt a praesentium molestiae omnis dolorum dolor dignissimos
-            neque minima asperiores placeat, corporis saepe earum perferendis
-            deleniti."
-              link="/"
-            />
-
-            <CardProj
-              isFlip
-              title="# Projeto 02"
-              subtitle="Website"
-              description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            nesciunt a praesentium molestiae omnis dolorum dolor dignissimos
-            neque minima asperiores placeat, corporis saepe earum perferendis
-            deleniti."
-              link="/"
-            />
-
-            <CardProj
-              title="# Projeto 03"
-              subtitle="Website"
-              description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            nesciunt a praesentium molestiae omnis dolorum dolor dignissimos
-            neque minima asperiores placeat, corporis saepe earum perferendis
-            deleniti."
-              link="/"
-            />
-          </div>
-
-          <Link
-            href="/projetos"
-            className="mx-auto flex w-full max-w-[416px] flex-1 justify-center rounded-lg bg-orange-500 py-3 text-center text-2xl font-light"
-          >
-            Ver todos os projetos
-          </Link>
-        </section>
-
+        <ContainerProj />
         <Skills />
+        <Contact />
       </section>
     </>
   )

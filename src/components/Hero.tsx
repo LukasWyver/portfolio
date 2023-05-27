@@ -9,7 +9,7 @@ export function Hero() {
       </div>
       <div className="w-full flex-1">
         <div className="mb-8 w-full">
-          <h1 className="text-5xl font-bold text-orange-500 lg:text-['5rem'] 2xl:text-9xl">
+          <h1 className="text-5xl font-bold text-orange-500 sm:text-6xl md:text-7xl xl:text-8xl 2xl:text-9xl">
             Olá
           </h1>
           <h2 className="text-2xl font-normal text-zinc-500 dark:text-orange-50 lg:text-4xl 2xl:text-5xl">
@@ -17,7 +17,7 @@ export function Hero() {
           </h2>
         </div>
 
-        <div className=" max-w-sm rounded bg-gradient-to-bl from-zinc-200 to-zinc-50 p-8 font-code dark:from-gray-800 dark:to-zinc-900">
+        <div className=" max-w-sm rounded bg-gradient-to-bl from-zinc-200 to-zinc-50 p-4 font-code dark:from-gray-800 dark:to-zinc-900 sm:p-8">
           <p className="text-zinc-400 dark:text-zinc-500">{`// Minha apresentação`}</p>
           <p className="mt-2 text-yellow-500">
             <span className="pr-2 text-pink-400">const</span>
@@ -39,7 +39,7 @@ export function Hero() {
           <p className="text-yellow-500">{`}`}</p>
         </div>
 
-        <div className="ml-auto mt-8 block max-w-sm rounded bg-gradient-to-bl from-zinc-200 to-zinc-50 p-8 font-code dark:from-gray-800 dark:to-zinc-900">
+        <div className="ml-auto mt-8 block max-w-sm rounded bg-gradient-to-bl from-zinc-200 to-zinc-50 p-4 font-code dark:from-gray-800 dark:to-zinc-900 sm:p-8">
           <p className="mt-2 text-yellow-500">
             <span className="pr-2 text-pink-400">let</span>
             <span className="pr-2 text-rose-500 dark:text-zinc-50">Cargo</span>

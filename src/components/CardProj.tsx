@@ -37,10 +37,10 @@ export function CardProj({
       >
         <div className="">
           <h5 className="mb-6 text-4xl font-bold text-orange-500">{title}</h5>
-          <h6 className="mb-4 text-3xl font-light text-zinc-500 dark:text-zinc-100">
+          <h6 className="mb-4 text-3xl font-light text-zinc-600 dark:text-zinc-100">
             {subtitle}
           </h6>
-          <p className="mb-4 text-base font-light text-zinc-400">
+          <p className="mb-4 text-base font-light text-zinc-500 dark:text-zinc-400">
             {description}
           </p>
         </div>

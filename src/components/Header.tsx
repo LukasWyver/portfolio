@@ -25,16 +25,16 @@ export function Header() {
         <div className="h-2.5 w-2.5 rounded-full bg-green-500" />
       </div>
 
-      <ul className="flex items-center gap-8">
+      <ul className="flex items-center gap-4 sm:gap-8">
         <NavLink path="/" title="Home" />
         <NavLink path="/projetos" title="Projetos" />
       </ul>
 
       <button onClick={toggleDarkMode} className="pr-4">
         {darkMode ? (
-          <Moon size={32} fillRule="inherit" strokeWidth={1} />
+          <Moon size={24} fillRule="inherit" strokeWidth={1} />
         ) : (
-          <Sun size={32} fillRule="inherit" strokeWidth={1} />
+          <Sun size={24} fillRule="inherit" strokeWidth={1} />
         )}
       </button>
     </header>
