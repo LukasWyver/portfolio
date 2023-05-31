@@ -29,7 +29,10 @@ export function Contact() {
           className="w-full resize-none rounded border-2 border-orange-500 bg-zinc-200 px-2.5 py-2 outline-1 outline-offset-0 outline-zinc-600 ring-0 placeholder:font-semibold placeholder:text-orange-500 placeholder-shown:border-zinc-400 dark:bg-zinc-800 dark:outline-zinc-200 placeholder-shown:dark:border-zinc-700"
         ></textarea>
 
-        <button className="ml-auto flex w-full max-w-xs justify-center rounded bg-orange-500 px-3 py-2 text-center text-2xl font-light">
+        <button
+          type="submit"
+          className="ml-auto flex w-full max-w-xs justify-center rounded bg-orange-500 px-3 py-2 text-center text-2xl font-light"
+        >
           Enviar
         </button>
       </form>

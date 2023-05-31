@@ -3,7 +3,10 @@ import meImg from '../assets/me.png'
 
 export function Hero() {
   return (
-    <section className="mx-auto mt-20 flex max-w-5xl flex-col-reverse items-center justify-center gap-8 px-4 lg:flex-row">
+    <section
+      id="hero"
+      className="mx-auto mt-20 flex max-w-5xl flex-col-reverse items-center justify-center gap-8 px-4 lg:flex-row"
+    >
       <div className="flex-1">
         <Image src={meImg} alt="" width={641} height={601} className="" />
       </div>
