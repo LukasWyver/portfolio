@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export function Skills() {
   return (
-    <section className="mx-auto my-32 w-full max-w-[1360px] border-b border-zinc-200 px-4 pb-28 dark:border-zinc-800">
+    <section className="mx-auto my-32 w-full max-w-[1360px] border-b border-zinc-200 px-2 pb-28 dark:border-zinc-800">
       <h2 className="break-words text-5xl font-bold text-orange-500 sm:text-6xl md:text-7xl">
         #Meus Conhecimentos
       </h2>
@@ -14,7 +14,7 @@ export function Skills() {
         Hard Skills
       </h4>
 
-      <div className="mx-auto mt-32 grid max-w-4xl grid-cols-2 gap-16 md:grid-cols-4">
+      <div className="mx-auto mt-32 grid max-w-4xl grid-cols-2 gap-16 px-4 md:grid-cols-4">
         <div>
           <p className="text-center">HTML</p>
           <Image src={htmlImg} alt="" className="mx-auto" />

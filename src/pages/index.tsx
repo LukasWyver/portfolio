@@ -1,23 +1,20 @@
 import Head from 'next/head'
 
 import { Hero } from '@/components/Hero'
-import { Header } from '../components/Header'
-import { Experience } from '@/components/Experience'
-
 import { Skills } from '@/components/Skills'
-import { ContainerProj } from '@/components/ContainerProj'
-import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
+import { Contact } from '@/components/Contact'
+import { Experience } from '@/components/Experience'
+import { ContainerProj } from '@/components/ContainerProj'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Lucas Gimenes | Portfólio</title>
+        <title>Home | Portfólio</title>
       </Head>
 
-      <section className="flex h-full w-full flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-50">
-        <Header />
+      <section className="flex h-full w-full flex-col">
         <main className="flex flex-col gap-32">
           <Hero />
         </main>
